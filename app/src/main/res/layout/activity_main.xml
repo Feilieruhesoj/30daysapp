@@ -1,0 +1,1497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:text="30-day habit"
+            android:textSize="21sp"
+            android:textColor="@color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Day 1"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Automated eating"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Monotony aside, eating the same thing every day is a common timesaver. For the experiment, breakfast consisted of microwave scrambled eggs with spinach or a homemade frittata; lunch was salad with spinach, cherry tomatoes, pumpkin seeds, tuna, brown rice and cottage cheese; dinner was pre-prepared meatloaf and veggies or vegetable lasagne. Fruit and nuts for snacks throughout the day."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 1-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Day 2"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Exercise"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Each day involved some form of exercise – a jog around the park, a ten minute weights or yoga video on YouTube, a pilates class or walking home from work."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 2-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Day 3"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Switch off phone at 10pm"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Social media can be timewaster, especially in those moments before bed when click-bait articles seem appealing in your sleepy-haze. During the experiment I would switch my phone to flight mode at exactly 10pm each night."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 3-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Day 4"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Wake up early"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Resisting the snooze button at 6am was an immense effort, but coffee helped. My morning routine was filled with writing, emails and exercise. Pulling myself out of bed when the alarm sounded didn’t get easier – and there were a few days where the snooze button was pressed several times, but I did get less tired throughout the day."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 4-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Day 5"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Quit sugar"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="A nightly chocolate indulgence had become routine, so cutting out sugar was a challenge. But even by the end of day three without stodgy carbohydrates and refined sugar had me feeling less bloated and more aware of what I was consuming in general."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 5-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Day 6"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Write"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="As an arts writer by day, I found I was doing little creative of free-flow writing in my spare time. I picked out dozens of topics as writing prompts and each morning would rise, make a coffee or tea, and sit at my computer and write for ten minutes."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 6-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Day 7"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Learn to juggle"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Studies have shown juggling can give our brains a boost and make us more mentally alert. After a brief lesson from a friend, I worked on juggling for a minimum of 15-minutes each day. Despite the consistency, I didn’t master the skill during the experiment."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 7-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Day 8"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Set a daily budget"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="For food and basics I implemented a daily budget and made notes in my phone for everything I purchased to help curb spending."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 8-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Day 9"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Podcast and news"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="As a regular listener of This American Life, On Being, The Good Life, Tim Ferris Show and Tara Brach, I wanted to stretch myself and listen to a brand new podcast daily. On my morning commute I started listening to The Moth, Radio National, Grammar Girl, How to be Amazing, Radio Lab and Ted Radio Hour."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 9-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Day 10"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Cleanse and moisturise"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Taking my makeup off before bed wasn’t really a priority pre-experiment. I have problematic skin, so I thought maybe it should be. Before bed, I would remove makeup with wipes, then use a cleanser, apply Vitamin A cream to problematic spots and lashings of moisturiser."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 10-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Day 11"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Meditate"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="I started with a body scan meditation but felt my mind wandering and becoming impatient. I then experimented with concentration meditation – listening with full attention to a song, or mindfully sipping a cup of tea. Eventually I found a five-minute positive thinking meditation recording that I started to listen to in the park after I’d finished my daily run."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 11-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Day 12"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Vitamins"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="I’m terrible at remembering to take vitamins, even with a reminder on my phone. I found it helped having them next to my bed at night so I was prompted to take them when I went to switch off my lamp. In the evening I would take Vitamin D, calcium and magnesium. Mid-morning I would take a multivitamin, fish oil, B6 and a chewable Vitamin C."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 12-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Day 13"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Drinking Water"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Continued to struggle with the early mornings, but guzzling half a litre of water the moment my eyes opened gave me a little boost and helped turn the automatic response to the alarm being a resentful groan into, “Must Drink Water.”"
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 13-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Day 14"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Read"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="No longer getting caught in a social media vortex before bed meant I had more time to read. I finished The Art of Nonconformity by Chris Guillebeau and High Sobriety: my year without booze by Jill Stark; reread Seneca’s On the shortness of life and read Womankind magazine cover to cover."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 14-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Day 15"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Quit Drinking"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="One of my most destructive habits is drinking too much wine. Even just a few drinks on a Friday night can leave me feeling hazy on a Saturday – any more and I’m left with a crippling hangover. I’ve cancelled plans and skipped important to-dos because I’ve had too much to drink the night before. Forgoing wine after work for the experiment left me feeling fresher throughout the day."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 15-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Day 16"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Evening questions"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Benjamin Franklin had a daily habit of asking himself the evening question, “What good have I done today?” Before bed, I’d scribble a list of all the things I did well on a post-it note – from clearing out my email inbox to paying someone a compliment – and stick the note to the wall as a positive reminder."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 16-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Breakfast"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Eating"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Monotony aside, eating the same thing every day is a common timesaver. For the experiment, breakfast consisted of microwave scrambled eggs with spinach or a homemade frittata; lunch was salad with spinach, cherry tomatoes, pumpkin seeds, tuna, brown rice and cottage cheese; dinner was pre-prepared meatloaf and veggies or vegetable lasagne. Fruit and nuts for snacks throughout the day."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 17-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Breakfast"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Eating"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Monotony aside, eating the same thing every day is a common timesaver. For the experiment, breakfast consisted of microwave scrambled eggs with spinach or a homemade frittata; lunch was salad with spinach, cherry tomatoes, pumpkin seeds, tuna, brown rice and cottage cheese; dinner was pre-prepared meatloaf and veggies or vegetable lasagne. Fruit and nuts for snacks throughout the day."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 18-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Breakfast"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Eating"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Monotony aside, eating the same thing every day is a common timesaver. For the experiment, breakfast consisted of microwave scrambled eggs with spinach or a homemade frittata; lunch was salad with spinach, cherry tomatoes, pumpkin seeds, tuna, brown rice and cottage cheese; dinner was pre-prepared meatloaf and veggies or vegetable lasagne. Fruit and nuts for snacks throughout the day."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 19-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Breakfast"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Eating"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Monotony aside, eating the same thing every day is a common timesaver. For the experiment, breakfast consisted of microwave scrambled eggs with spinach or a homemade frittata; lunch was salad with spinach, cherry tomatoes, pumpkin seeds, tuna, brown rice and cottage cheese; dinner was pre-prepared meatloaf and veggies or vegetable lasagne. Fruit and nuts for snacks throughout the day."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 20-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Breakfast"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Eating"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Monotony aside, eating the same thing every day is a common timesaver. For the experiment, breakfast consisted of microwave scrambled eggs with spinach or a homemade frittata; lunch was salad with spinach, cherry tomatoes, pumpkin seeds, tuna, brown rice and cottage cheese; dinner was pre-prepared meatloaf and veggies or vegetable lasagne. Fruit and nuts for snacks throughout the day."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 21-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Breakfast"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Eating"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Monotony aside, eating the same thing every day is a common timesaver. For the experiment, breakfast consisted of microwave scrambled eggs with spinach or a homemade frittata; lunch was salad with spinach, cherry tomatoes, pumpkin seeds, tuna, brown rice and cottage cheese; dinner was pre-prepared meatloaf and veggies or vegetable lasagne. Fruit and nuts for snacks throughout the day."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 22-->
+            <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Breakfast"
+                    android:textSize="18sp"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:src="@drawable/eating"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Eating"
+                    android:textSize="18sp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Monotony aside, eating the same thing every day is a common timesaver. For the experiment, breakfast consisted of microwave scrambled eggs with spinach or a homemade frittata; lunch was salad with spinach, cherry tomatoes, pumpkin seeds, tuna, brown rice and cottage cheese; dinner was pre-prepared meatloaf and veggies or vegetable lasagne. Fruit and nuts for snacks throughout the day."
+                    />
+
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView><!--Day 23-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Breakfast"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Eating"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Monotony aside, eating the same thing every day is a common timesaver. For the experiment, breakfast consisted of microwave scrambled eggs with spinach or a homemade frittata; lunch was salad with spinach, cherry tomatoes, pumpkin seeds, tuna, brown rice and cottage cheese; dinner was pre-prepared meatloaf and veggies or vegetable lasagne. Fruit and nuts for snacks throughout the day."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 24-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Breakfast"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Eating"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Monotony aside, eating the same thing every day is a common timesaver. For the experiment, breakfast consisted of microwave scrambled eggs with spinach or a homemade frittata; lunch was salad with spinach, cherry tomatoes, pumpkin seeds, tuna, brown rice and cottage cheese; dinner was pre-prepared meatloaf and veggies or vegetable lasagne. Fruit and nuts for snacks throughout the day."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 25-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Breakfast"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Eating"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Monotony aside, eating the same thing every day is a common timesaver. For the experiment, breakfast consisted of microwave scrambled eggs with spinach or a homemade frittata; lunch was salad with spinach, cherry tomatoes, pumpkin seeds, tuna, brown rice and cottage cheese; dinner was pre-prepared meatloaf and veggies or vegetable lasagne. Fruit and nuts for snacks throughout the day."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 26-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Breakfast"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Eating"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Monotony aside, eating the same thing every day is a common timesaver. For the experiment, breakfast consisted of microwave scrambled eggs with spinach or a homemade frittata; lunch was salad with spinach, cherry tomatoes, pumpkin seeds, tuna, brown rice and cottage cheese; dinner was pre-prepared meatloaf and veggies or vegetable lasagne. Fruit and nuts for snacks throughout the day."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 27-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Breakfast"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Eating"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Monotony aside, eating the same thing every day is a common timesaver. For the experiment, breakfast consisted of microwave scrambled eggs with spinach or a homemade frittata; lunch was salad with spinach, cherry tomatoes, pumpkin seeds, tuna, brown rice and cottage cheese; dinner was pre-prepared meatloaf and veggies or vegetable lasagne. Fruit and nuts for snacks throughout the day."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 28-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Breakfast"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Eating"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Monotony aside, eating the same thing every day is a common timesaver. For the experiment, breakfast consisted of microwave scrambled eggs with spinach or a homemade frittata; lunch was salad with spinach, cherry tomatoes, pumpkin seeds, tuna, brown rice and cottage cheese; dinner was pre-prepared meatloaf and veggies or vegetable lasagne. Fruit and nuts for snacks throughout the day."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 29-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Breakfast"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/eating"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Eating"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Monotony aside, eating the same thing every day is a common timesaver. For the experiment, breakfast consisted of microwave scrambled eggs with spinach or a homemade frittata; lunch was salad with spinach, cherry tomatoes, pumpkin seeds, tuna, brown rice and cottage cheese; dinner was pre-prepared meatloaf and veggies or vegetable lasagne. Fruit and nuts for snacks throughout the day."
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView><!--Day 30-->
+
+    </LinearLayout>
+
+
+</ScrollView>
